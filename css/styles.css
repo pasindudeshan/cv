@@ -1,0 +1,169 @@
+.top-container {
+  background-color: #cdfffc;
+  /*display property:inline, block, inline-block, none; */
+  position: relative;
+  padding-top: 100px;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  /* 100% = 16px = 1em  , rem is not depend on its parent values, dynamic font sizing:em,%    static font-sizing:px value*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  /*  line-height: 2; */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover{
+  color:#184d47;
+}
+
+.middle-container {
+  margin:100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 3;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  /*postion types:relative, absolute, fixed, sticky, static(default)*/
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.intro{
+  width:30%;
+  margin:auto; /*we need to set this because it left align after width set...so to set it center margin set to auto*/
+}
+.underline {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 200px auto;
+  /*to center the content also can use display:inline-block; property;*/
+  text-align: left;
+
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.travel-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  margin-top: 100px;
+}
+
+p {
+    line-height: 2;
+  color: #40514E;
+  font-weight: bold;
+}
+
+.twitter-img {
+  margin-left: 30px;
+}
+
+.FB-img {
+  margin-left: 30px;
+}
+
+.bottom-text {
+  color: #EAF6F6;
+}
+
+.BUTTON_GJX {
+   background: #26FFFF;
+   background-image: -webkit-linear-gradient(top, #26FFFF, #0D9292);
+   background-image: -moz-linear-gradient(top, #26FFFF, #0D9292);
+   background-image: -ms-linear-gradient(top, #26FFFF, #0D9292);
+   background-image: -o-linear-gradient(top, #26FFFF, #0D9292);
+   background-image: -webkit-gradient(to bottom, #26FFFF, #0D9292);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 13px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 30px;
+}
+
+.BUTTON_GJX:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+hr {
+  margin: 100px auto 100px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  border-color: #EAF6F6;
+  width: 10%;
+}
